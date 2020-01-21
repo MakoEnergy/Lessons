@@ -1,14 +1,33 @@
 project(Lessons)
 cmake_minimum_required(VERSION 2.8)
 
-add_subdirectory(1-Q&A)
+add_subdirectory(01-Constants)
+add_subdirectory(02-Operators)
+add_subdirectory(03-BasicIO)
+add_subdirectory(04-ProgramFlow)
+add_subdirectory(05-Functions)
+add_subdirectory(06-Templates)
+add_subdirectory(07-NameVisibility)
+add_subdirectory(08-Arrays)
+add_subdirectory(09-Strings)
+add_subdirectory(10-PointersAndReferences)
+add_subdirectory(11-DynamicAllocation)
+add_subdirectory(12-Structures)
+add_subdirectory(13-Enums)
+add_subdirectory(14-Classes)
+add_subdirectory(15-MoreClasses)
+add_subdirectory(16-SpecialMembers)
+add_subdirectory(17-Inheritance)
+add_subdirectory(18-Polymorphism)
+add_subdirectory(19-Conversions)
+add_subdirectory(20-Exceptions)
+add_subdirectory(21-PreprocessorDirectives)
+add_subdirectory(22-FileIO)
 
-add_subdirectory(2-Logging)
+# Fun Stuff / Post Tutorial Skill Building
 
-add_subdirectory(3-UtilityLogging)
-
-add_subdirectory(4-KnightsQuest)
-
-add_subdirectory(5-LoopingReport)
-
-add_subdirectory(6-GenerateRandom)
+#add_subdirectory(5-Logging)
+#add_subdirectory(6-UtilityLogging)
+#add_subdirectory(7-KnightsQuest)
+#add_subdirectory(8-LoopingReport)
+#add_subdirectory(9-GenerateRandom)
